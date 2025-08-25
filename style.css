@@ -2,11 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte_padrao);
     margin: 0;
 }
+:root{
+    --fonte_padrao: Arial, Helvetica, sans-serif;
+    --fonte_poesia: "sriracha", arial, sans-serif;
+    --fonte_titulo: "passion one", arial, sans-serif;
+}
 #um{
-    height: 100vh;
+    min-height: 100vh;
     background-color: lightsteelblue;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
@@ -22,7 +27,53 @@ header{
     color: white;
 }
 h1{
-    font-family: "passion one", arial, sans-serif;
+    font-family: var(--fonte_titulo);
     font-size: 6em;
     margin-bottom: 15px;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;    
+}
+a:hover{
+    text-decoration: underline;
+}
+.branco{
+    background-color: white;
+    min-height: 750px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.295);
+}
+.branco>pre{
+    font-family: var(--fonte_poesia);
+    font-size: 3em;
+    padding-top: 50px;
+}
+.transparente{
+    background-color: transparent;
+    min-height: 750px;
+}
+.transparente>pre{
+    font-family: var(--fonte_poesia);
+    font-size: 3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    width: 780px;
+    min-height: 700px;
+}
+#dois{
+    min-height: 100vh;
+    background-color: lightsteelblue;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
