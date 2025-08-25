@@ -20,7 +20,7 @@
     background-attachment: fixed;
 }
 header{
-    height: 190px;
+    min-height: 190px;
     background-color: black;
     text-align: center;
     padding-top: 80px;
@@ -30,6 +30,9 @@ h1{
     font-family: var(--fonte_titulo);
     font-size: 6em;
     margin-bottom: 15px;
+}
+header>p{
+    padding: 5px;
 }
 a{
     color: white;
@@ -42,7 +45,7 @@ a:hover{
 .branco{
     background-color: white;
     min-height: 750px;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.295);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .branco>pre{
     font-family: var(--fonte_poesia);
