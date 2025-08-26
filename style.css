@@ -3,10 +3,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 * {
     font-family: var(--fonte_padrao);
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 :root {
     --fonte_padrao: Arial, Helvetica, sans-serif;
     --fonte_poesia: "sriracha", arial, sans-serif;
     --fonte_titulo: "passion one", arial, sans-serif;
+}
+html, body {
+    min-height: 100vh;
+    background-color: lightgray;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 10vh 0px;
+}
+.normal {
+    background-color: white;
+}
+.imagem {
+    background-color: gray;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
