@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 * {
-    font-family: var(--fonte_padrao);
     margin: 0px;
     padding: 0px;
 }
 :root {
-    --fonte_padrao: Arial, Helvetica, sans-serif;
+    --fonte_padrao: verdana, arial, sans-serif;
     --fonte_poesia: "sriracha", arial, sans-serif;
     --fonte_titulo: "passion one", arial, sans-serif;
 }
 html, body {
     min-height: 100vh;
     background-color: lightgray;
+    font-family: var(--fonte_padrao);
 }
 header {
     background-color: black;
@@ -23,6 +23,7 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte_titulo);
 }
 header > p {
     padding-bottom: 50px;
@@ -38,6 +39,7 @@ a:hover {
 section {
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
+    font-family: var(--fonte_poesia);
 }
 .normal {
     background-color: white;
