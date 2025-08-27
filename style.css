@@ -56,6 +56,15 @@ section {
     padding: 10px;
     border-radius: 5px;
 }
+.espaço {
+    margin-bottom: 5vw;
+}
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
 footer {
     background-color: black;
     color: white;
