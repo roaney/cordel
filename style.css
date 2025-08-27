@@ -24,7 +24,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte_titulo);
-    font-size: 8vw;
+    font-size: 10vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -41,7 +41,7 @@ section {
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
     font-family: var(--fonte_poesia);
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 .normal {
     background-color: white;
